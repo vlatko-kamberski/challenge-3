@@ -1,0 +1,164 @@
+body {
+	background-color: hsl(229, 57%, 11%);
+	font-family: 'Raleway', sans-serif;
+	color: hsl(243, 100%, 93%);
+	text-align: center;
+	background-image: url("images/bg-mobile.png");
+	background-repeat: no-repeat;
+	padding: 100px 0 0 0;
+	margin: 0;
+}
+
+@media screen and (min-width: 376px) {
+body {
+	background-image: url("images/bg-desktop.png");
+	background-position: right bottom;
+	padding: 200px 0 0 0;
+	height: 500px;
+} 
+}
+
+h1 {
+	color: black;
+	display: inline;
+}
+
+.fylo {
+	background-color: hsl(228, 56%, 26%);
+	display: inline-block;
+	border-radius: 0px 80px 0px 0px;
+	padding: 30px;
+	width: 285px;
+	margin: 15px;
+	text-align: left;
+}
+
+.logo {
+	display: block;
+	margin: 5px 5px 20px 5px;
+}
+
+.icon {
+	background-color: hsl(229, 57%, 11%);
+	border-radius: 10px;
+	display: inline-block;
+	margin: 5px;
+}
+
+.document {
+	padding: 13px 15px;
+}
+
+.folder {
+	padding: 15px 13px;
+}
+
+.upload {
+	padding: 17px 13px;
+}
+
+.usage {
+	background-color: hsl(228, 56%, 26%);
+	display: inline-block;
+	border-radius: 10px;
+	width: 345px;
+	padding: 30px 0;
+	margin: 15px;
+	text-align: left;
+	position: relative;
+}
+
+@media screen and (min-width: 376px) {
+.usage {
+	width: 500px;
+}
+}
+ 
+.bar-empty {
+	background-color: hsl(229, 57%, 11%);
+	width: 245px;
+	height: 20px;
+	border-radius: 45px;
+	margin: 0 auto 10px auto;
+}
+
+@media screen and (min-width: 376px) {
+.bar-empty {
+	width: 400px;
+}
+}
+
+.bar-full {
+	background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+	width: 145px;
+	height: 14px;
+	border-radius: 45px;
+	position: relative;
+	top: 3px;
+	left: 3px;
+}
+
+@media screen and (min-width: 376px) {
+.bar-full {
+	width: 300px;
+}
+}
+
+.button {
+	background-color: white;
+	width: 10px;
+	height: 10px;
+	border-radius: 45px;
+	position: absolute;
+	right: 2px;
+	top: 2px;
+}
+
+.gb-left {
+	text-transform: uppercase;
+	color: hsl(229, 7%, 55%);
+	font-weight: 700;
+	display: inline;
+	vertical-align: middle;
+}
+
+.text-up {
+	margin-left: 50px;
+}
+
+.text-down-left {
+	margin-left: 50px;
+	display: inline;
+}
+
+.text-down-right {
+	display: inline;
+	position: relative;
+	left: 150px;
+}
+
+.callout {
+	background-color: white;
+	border-radius: 10px;
+	padding: 10px;
+	width: 150px;
+	position: absolute;
+}
+
+@media screen and (max-width: 375px) {
+.callout {
+	left: 80px;
+	bottom: -40px;
+}
+}
+
+@media screen and (min-width: 376px) {
+.callout {
+	right: 30px;
+	top: -30px;
+}
+}
+
+.attribution {
+	margin-top: 50px;
+}
